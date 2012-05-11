@@ -74,7 +74,7 @@ class URLMeta {
       $this->get_image();
     } else {
       // at least try to get a title
-      $this->get_title;
+      $this->get_title();
     }
 
     return $this->response;
