@@ -13,7 +13,7 @@ Usage:
 <?php
 require('meta.php');
 $m = new URLMeta('http://www.imdb.com/title/tt0120737/');
-if ($m->parse()) {
+if ($resp = $m->parse()) {
   var_dump($resp);
 } else {
   print $m->error_code . "\n" . $m->error_response;
