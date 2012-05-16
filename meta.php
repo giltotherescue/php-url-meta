@@ -35,7 +35,7 @@ class URLMeta {
       'title' => '',
       'description' => '',
       'keywords' => (object) array(),
-      'author' => '',
+      'author' => (object) array('name' =>, 'href' => ''),
       'image' => '',
     );
 
